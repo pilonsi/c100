@@ -39,7 +39,7 @@ You can check 🧐 the equivalencies in the **C💯 Translation Table** below:
 | signed         | 🤫               |
 | sizeof         | 👀               |
 | static         | 🥶               |
-| struct         | 😳               |
+| struct         | 🤧               |
 | switch         | 🤬               |
 | typedef        | 🥸               |
 | union          | 😊               |
