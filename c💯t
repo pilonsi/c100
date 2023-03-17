@@ -1,0 +1,71 @@
+#!/bin/sh
+#
+# c💯t -- convert .c and .h files to .c💯 and .h💯
+# Copyright (C) 2023 Jorge Fabregat López
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+# Process arguments 🧐
+if [ "$1" = "-h" ] || [ "$1" = "--help" ] || [ "$#" = "0" ]
+then
+  echo "Usage: $(basename "$0") file ..."
+  exit 0
+fi
+
+# Define the C💯 Translation Table 🔥
+sed_script=""
+sed_script+="s/auto /🚗 /g;"
+sed_script+="s/\{auto /\{🚗 /g;"
+sed_script+="s/break;/💥;/g;"
+sed_script+="s/\{break;/\{💥;/g;"
+sed_script+="s/case /🧐 /g;"
+sed_script+="s/\{case /\{🧐 /g;"
+sed_script+="s/char /🪑 /g;"
+sed_script+="s/\(char /\(🪑 /g;"
+sed_script+="s/\{char /\{🪑 /g;"
+sed_script+="s/<char>/<🪑>/g;"
+sed_script+="s/int /🤤 /g;"
+sed_script+="s/\(int /\(🤤 /g;"
+sed_script+="s/\{int /\{🤤 /g;"
+sed_script+="s/<int>/<🤤>/g;"
+sed_script+="s/const /🗿 /g;"
+sed_script+="s/\{const /\{🗿 /g;"
+sed_script+="s/continue;/😍;/g;"
+sed_script+="s/\{continue;/\{😍;/g;"
+sed_script+="s/default:/🥱:/g;"
+sed_script+="s/\{default:/\{🥱:/g;"
+sed_script+="s/do /🫡 /g;"
+sed_script+="s/do\{/🫡\{/g;"
+sed_script+="s/double /😳 /g;"
+sed_script+="s/\(double /\(😳 /g;"
+sed_script+="s/\{double /\{😳 /g;"
+sed_script+="s/<double>/<😳>/g;"
+sed_script+="s/else / 🤷 /g;"
+sed_script+="s/else\{/🤷\{/g;"
+sed_script+="s/\}else\{/\}🤷\{/g;"
+sed_script+="s/enum /😌 /g;"
+sed_script+="s/\{enum /\{😌 /g;"
+sed_script+="s/extern /🤯 /g;"
+sed_script+="s/\{extern /\{🤯 /g;"
+sed_script+="s/float /🚢 /g;"
+sed_script+="s/\(float /\(🚢 /g;"
+sed_script+="s/\{float /\{🚢 /g;"
+sed_script+="s/<float>/<🚢>/g;"
+sed_script+="s/for /🤭 /g;"
+sed_script+="s/for\{/🤭\{/g;"
+sed_script+="s/\}for\{/\}🤭\{/g;"
+sed_script+="s/goto /🚶‍♀️ /g;"
+
+# Convert C 👴 files to C💯 files 😱🤘
+for file in "$@"
+do
+  sed -E "$sed_script" "$file" > "$file"💯
+done
