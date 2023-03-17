@@ -121,6 +121,8 @@ in the same directory as your C💯 file 🤯.
 Here's an example of a factorial 😵‍💫 program written in C 🥶 and the same program
 written in C💯 👏:
 
+The C program 😾:
+
 ``` c
 #include <stdio.h>
 
@@ -139,7 +141,7 @@ int main() {
 }
 ```
 
-And here's the same program written in C💯:
+And here's the same program written in C💯 😻:
 
 ``` c
 🤣🥳 <stdio.h>
