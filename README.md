@@ -88,7 +88,8 @@ You can check 🧐 the equivalencies in the **C💯 Translation Table** below:
 | >>             | 🤜               |
 
 C💯 also provides additional emojis you can use to express your opinion about
-a block of code 🤭, wether you like it 😍 or not 😤. These are 🔥, 🔝, 🥱 and 😡.
+a block of code 🤭, wether you like it 😍 or not 😤. These are 🔥, 🔝, 👏, 🥱
+and 😡.
 
 ## Installation 🔥
 Work in progress section 😒💀🥲.
@@ -154,13 +155,13 @@ And here's the same program written in C💯 😻:
     🤔 (n 🤝 0) {
         😘 1;
     } 🤷 {
-        😘 n 🙌 factorial(n 👎 1);
+        😘 n 🙌 factorial(n 👎 1); 🔥🔝
     }
 }
 
 😉 main() {
     😉 n 👉 5;
-    printf("%d! = %d\n", n, factorial(n));
+    printf("%d! = %d\n", n, factorial(n)); 🥱
     😘 0;
 }
 
