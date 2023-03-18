@@ -26,7 +26,7 @@ You can check 🧐 the equivalencies in the **C💯 Translation Table** below:
 | enum           | 😌               |
 | extern         | 😏               |
 | float          | 🚢               |
-| for            | 😤               |
+| for            | 🙄               |
 | goto           | 🚶‍♀️        |
 | if             | 🤔               |
 | inline         | 😑               |
@@ -46,7 +46,7 @@ You can check 🧐 the equivalencies in the **C💯 Translation Table** below:
 | unsigned       | 😈               |
 | void           | 🫥               |
 | volatile       | 😶‍🌫️       |
-| while          | 🙄               |
+| while          | 😵‍💫       |
 | _Bool          | 🤖               |
 | _Complex       | 🫠               |
 | _Imaginary     | 👻               |
@@ -86,6 +86,7 @@ You can check 🧐 the equivalencies in the **C💯 Translation Table** below:
 | ~              | 🫰               |
 | <<             | 🤛               |
 | >>             | 🤜               |
+| ->             | 🫵               |
 
 C💯 also provides additional emojis you can use to express your opinion about
 a block of code 🤭, wether you like it 😍 or not 😤. These are 🔥, 🔝, 👏, 🥱
