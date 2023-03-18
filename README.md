@@ -1,9 +1,9 @@
 # The C💯 Programming Language
-Hello there!👋 We are the C💯 Committee 🙌. Our mission 🚀 is to bring the outdated C language 🥱
-to the current times! 🔝 We don't believe people have to deal anymore with its boring XX century
-text only syntax 🙅‍♀️. C, while having helped the computer science field reach heights
-unheard of 👏 is nowadays looking outdated, plain, and is hindering industry growth 📈 by
-being unappealing to potential new programmers 💀. That's why we have developed C💯! 🤘 A
+Hello there!👋 We are the C💯 Committee 🙌. Our mission 🚀 is to bring the outdated C language
+🥱 to the current times! 🔝 We don't believe people have to deal with its boring XX century 
+text only syntax anymore 🙅‍♀️. C, while having helped the computer science field reach
+heights unheard of 👏 is nowadays looking outdated, plain, and is hindering industry growth 📈
+by being unappealing to potential new programmers 💀. That's why we have developed C💯! 🤘 A
 new programming language that retains the power of C 💪 and doesn't bore new developers to
 a screeching halt! 🤭
 
@@ -52,17 +52,17 @@ You can check 🧐 the equivalencies in the **C💯 Translation Table** below:
 | _Imaginary     | 👻               |
 | #include       | 🤣🥳             |
 | #define        | 🤣🤓             |
-| #undef         | 🤣🥴             |
+| #undef         | 🤣🤫             |
 | #ifdef         | 🤣🤔🤓           |
-| #ifndef        | 🤣🤔🥴           |
+| #ifndef        | 🤣🤔🤫           |
 | #if            | 🤣🤔             |
 | #elif          | 🤣🤨             |
 | #else          | 🤣🤷             |
 | #endif         | 🤣😵             |
 | #line          | 🤣🫤             |
 | #error         | 🤣💀             |
-| #pragma        | 🤣🤫             |
-| _Pragma        | 🤣🤫🤭           |
+| #pragma        | 🤣🤗             |
+| _Pragma        | 🤣🤗🤭           |
 | +              | 👍               |
 | -              | 👎               |
 | *              | 🙌               |
