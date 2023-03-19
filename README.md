@@ -152,17 +152,17 @@ And here's the same program written in C💯 😻:
 ``` c
 🤣🥳 <stdio.h>
 
-😉 factorial(😉 n) {
+😉 factorial(😉 n)🔝 {
     🤔 (n 🤝 0) {
         😘 1;
     } 🤷 {
-        😘 n 🙌 factorial(n 👎 1); 🔥🔝
+        😘 n 🙌 factorial(n 👎 1); 🔥
     }
 }
 
 😉 main() {
     😉 n 👉 5;
-    printf("%d! = %d\n", n, factorial(n)); 🥱
+    printf🥱("%d! = %d\n", n, factorial(n)); 
     😘 0;
 }
 
