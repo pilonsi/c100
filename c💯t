@@ -13,13 +13,6 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-# Process arguments 🧐
-if [ "$1" = "-h" ] || [ "$1" = "--help" ] || [ "$#" = "0" ]
-then
-  echo "Usage: $(basename "$0") file ..."
-  exit 0
-fi
-
 # Define the C💯 Translation Table 🔥
 sed_script=""
 sed_script+="s/[[:<:]]auto[[:>:]]/🚗/g;"
@@ -95,8 +88,29 @@ sed_script+="s/\|/✌️/g;"
 sed_script+="s/\^/🤌/g;"
 sed_script+="s/~/🫰/g;"
 
+# Process arguments 🧐
+if [ "$1" = "-h" ] || [ "$1" = "--help" ]
+then
+  echo "Usage: $(basename "$0") file ..."
+  exit 0
+elif [ $# -eq 0 ]
+then
+  filelist=""
+  while read -t 1 line ; do
+    filelist+="$line "
+  done
+  if [ "$filelist" = "" ]
+  then
+    echo "Usage: $(basename "$0") file ..."
+    exit 0
+  fi
+else
+  filelist=$@
+fi
+
 # Convert C 👴 files to C💯 files 😱🤘
-for file in "$@"
+for file in $filelist
 do
-  sed -E "$sed_script" "$file" > "$file"💯
+  echo "c💯t: Converting $file 🤭"
+  LC_CTYPE=C sed -E "$sed_script" "$file" > "$file"💯
 done
